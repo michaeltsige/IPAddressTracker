@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" class="bgimage">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  
+  
+  <link rel="stylesheet" href="index.css">
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.1/dist/leaflet.css"
+   integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14="
+   crossorigin=""/>
+
+  <title>IP Address Tracker</title>
+  
+</head>
+<body>
+  <header class="header">
+    <a href="#" class="logo">IP Address Tracker</a>
+    <nav class="nav-items">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+  <br>
+  <br>
+  <hr>
+  <main >
+    <div id="map">
+
+    </div>
+
+    <div class="intro">
+      <h1 class="headtext">Your IP Location</h1>
+      <div class="module-border-wrap" class="module" >
+        <ul class="lists">
+            <li id="ip"> </li>
+            <li id="country"> </li>
+            <li id="continent"> </li>
+            <li id="longitude"> </li>
+            <li id="latitude"> </li>
+            
+        </ul>
+      </div>
+    </div>
+
+  </main>
+  <br>
+  <br>
+  <br>
+  <footer class="footer">
+    <div class="copy">&copy; 2022 Michael Tsige Cherenet</div>
+    <div class="bottom-links">
+      <div class="links">
+        <span>More Info</span>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </div>
+      <div class="links">
+        <span>Social Links</span>
+        <a href="#"><i class="fab fa-facebook">facebook</i></a>
+        <a href="#"><i class="fab fa-twitter">twitter</i></a>
+        <a href="#"><i class="fab fa-instagram">instagram</i></a>
+      </div>
+    </div>
+  </footer>
+  
+  <script src="https://unpkg.com/leaflet@1.9.1/dist/leaflet.js"
+  integrity="sha256-NDI0K41gVbWqfkkaHj15IzU7PtMoelkzyKp8TOaFQ3s="
+  crossorigin="">
+  </script>
+  
+  <script src="script.js"></script>
+  
+</body>
+</html>
